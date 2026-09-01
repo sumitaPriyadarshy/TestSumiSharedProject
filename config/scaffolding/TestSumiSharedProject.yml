@@ -8,11 +8,19 @@ packages:
   gitUsername: sumitaPriyadarshy
   gitBranch: main
 services:
+- serviceName: project.testsumishared.integrations:testflow1
+  packages:
+  - name: TestSumiSharedProject
+    version: "1.0"
 - serviceName: project.testsumishared.integrations:testflow5
   packages:
   - name: TestSumiSharedProject
     version: "1.0"
 - serviceName: project.testsumishared.integrations:testflow6
+  packages:
+  - name: TestSumiSharedProject
+    version: "1.0"
+- serviceName: project.testsumishared.integrations:testflow7
   packages:
   - name: TestSumiSharedProject
     version: "1.0"
