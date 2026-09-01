@@ -8,19 +8,15 @@ packages:
   gitUsername: sumitaPriyadarshy
   gitBranch: main
 services:
-- serviceName: project.testsumishared.integrations:testflow
-  packages:
-  - name: TestSumiSharedProject
-    version: "1.0"
-- serviceName: pub.date:getCurrentDate
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1120
 - serviceName: project.testsumishared.integrations:testflow2
   packages:
   - name: TestSumiSharedProject
     version: "1.0"
 - serviceName: project.testsumishared.integrations:testflow3
+  packages:
+  - name: TestSumiSharedProject
+    version: "1.0"
+- serviceName: project.testsumishared.integrations:testflow4
   packages:
   - name: TestSumiSharedProject
     version: "1.0"
