@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1120
+- serviceName: project.testsumishared.integrations:testflow2
+  packages:
+  - name: TestSumiSharedProject
+    version: "1.0"
