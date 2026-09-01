@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/sumitaPriyadarshy
   gitUsername: sumitaPriyadarshy
   gitBranch: main
+services:
+- serviceName: project.testsumishared.integrations:testflow
+  packages:
+  - name: TestSumiSharedProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1120
