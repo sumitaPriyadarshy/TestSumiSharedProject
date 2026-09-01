@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestSumiSharedProject
+  gitServerName: sumitaAccountShared
+  gitUrl: https://github.com/sumitaPriyadarshy
+  gitUsername: sumitaPriyadarshy
+  gitBranch: main
